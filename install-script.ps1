@@ -1,7 +1,7 @@
 # Daniel Cumbor WonderScript
 # Created with effort in 2021
 
-Write-Output "Daniel Cumbor WonderScript V1.0"
+Write-Output "Daniel Cumbor's WonderScript V1.0"
 
 # Check if Chocolatey is installed already, if not install it.
 $chocoversion = powershell choco -v
