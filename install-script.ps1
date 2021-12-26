@@ -33,12 +33,12 @@ choco install whatsapp
 # Developer Programs
 Write-Output "Installing Developer Programs"
 choco install vscode
-choco install jetbrains-rider
 choco install nodejs
 choco install firacode
 choco install unity-hub
 choco install slack
 choco install postman
+choco install jetbrains-rider
 
 choco feature disable -n allowGlobalConfirmation
 Write-Output "All done! Your Welcome!"
