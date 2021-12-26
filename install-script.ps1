@@ -1,7 +1,7 @@
 # Daniel Cumbor WonderScript
 # Created with effort in 2021
 
-Write-Output Daniel Cumbor WonderScript V1
+Write-Output "Daniel Cumbor WonderScript V1.0"
 
 # Check if Chocolatey is installed already, if not install it.
 $chocoversion = powershell choco -v
@@ -13,11 +13,11 @@ else{
     Write-Output "Chocolatey Version $chocoversion is already installed!"
 }
 
-Write-Output Configuring Chocolatey
+Write-Output "Configuring Chocolatey"
 choco feature enable -n allowGlobalConfirmation
 
 # Core Programs
-Write-Output Installing Core Programs
+Write-Output "Installing Core Programs"
 choco install brave
 choco install discord
 choco install steam
@@ -27,7 +27,7 @@ choco install nordpass
 choco install tidal
 
 # Developer Programs
-Write-Output Installing Developer Programs
+Write-Output "Installing Developer Programs"
 choco install vscode
 choco install jetbrains-rider
 choco install nodejs
@@ -37,4 +37,4 @@ choco install slack
 choco install postman
 
 choco feature disable -n allowGlobalConfirmation
-Write-Output All done! Your Welcome!
+Write-Output "All done! Your Welcome!"
