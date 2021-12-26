@@ -1,7 +1,7 @@
 # ChocoAutoInstaller
  A custom Powershell script that uses Chocolatey to install my favourite apps with 1 click!
 
-# How To Use
+# How To Run
  Enter the following command into an Admin Powershell terminal:
 
  ````
