@@ -5,11 +5,13 @@ Write-Output "Daniel Cumbor WonderScript V1.0"
 
 # Check if Chocolatey is installed already, if not install it.
 $chocoversion = powershell choco -v
-if(-not($chocoversion)){
+if (-not($chocoversion))
+{
     Write-Output "Chocolatey is not installed, installing now"
-    Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+    Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 }
-else{
+else
+{
     Write-Output "Chocolatey Version $chocoversion is already installed!"
 }
 
