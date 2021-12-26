@@ -27,6 +27,8 @@ choco install git
 choco install 7zip
 choco install nordpass
 choco install tidal
+choco install telegram
+choco install whatsapp
 
 # Developer Programs
 Write-Output "Installing Developer Programs"
