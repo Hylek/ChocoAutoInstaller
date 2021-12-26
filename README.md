@@ -6,6 +6,5 @@
 
  ````
  Invoke-WebRequest -Uri https://raw.githubusercontent.com/Hylek/ChocoAutoInstaller/main/install-script.ps1 -OutFile .\install-script.ps1; .\install-script.ps1
-
  ````
 
